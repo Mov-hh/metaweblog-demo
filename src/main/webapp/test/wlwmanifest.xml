@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://schemas.microsoft.com/wlw/manifest/weblog">
+	<options>
+		<clientType>Metaweblog</clientType>
+		<supportsKeywords>Yes</supportsKeywords>
+		<supportsNewCategories>Yes</supportsNewCategories>
+		<supportsSlug>Yes</supportsSlug>
+		<supportsAuthor>No</supportsAuthor>
+		<supportsGetTags>No</supportsGetTags>
+		<supportsEmbeds>Yes</supportsEmbeds>
+		<supportsExcerpt>Yes</supportsExcerpt>
+		<supportsExtendedEntries>Yes</supportsExtendedEntries>
+		<supportsCustomDate>No</supportsCustomDate>
+		<supportsEmptyTitles>No</supportsEmptyTitles>
+		<supportsAutoUpdate>Yes</supportsAutoUpdate>
+	</options>
+	<weblog>
+		<serviceName>localhost</serviceName>
+		<homepageLinkText>test</homepageLinkText>
+		<adminLinkText>管理</adminLinkText>
+		<adminUrl>http://localhost/metaweblog-demo/</adminUrl>
+		<postEditingUrl>http://localhost/metaweblog-demo/EditPosts.aspx?postid={post-id}</postEditingUrl>
+	</weblog>
+	<views>
+		<default>WebLayout</default>
+		<view type="WebLayout" src="http://localhost/metaweblog-demo/test/weblayout.html" />
+		<view type="WebPreview" src="http://localhost/metaweblog-demo/test/weblayout.html" />
+	</views>
+</manifest>
